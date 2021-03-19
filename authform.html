@@ -25,6 +25,7 @@
                <li><a href="#" class="text-white">Follow on Twitter</a></li>
                <li><a href="#" class="text-white">Like on Facebook</a></li>
                <li><a href="#" class="text-white">Email me</a></li>
+               <li> <input id="ChInBtn" class="ChInBtn" type="button" name="CheckIN" value="Войти"></li>
              </ul>
            </div>
          </div>
@@ -44,21 +45,21 @@
    <!--authform-->
 
     <div class="auth">
-      <form>
+      <form method="POST" name="AuthForm">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label logform" id="email">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1 EmailInp" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label logform" id="password">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1 PassInp">
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label logform" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-primary userbtn onclick="Send (this)">Submit</button>
+  <button type="submit" name="submit" class="btn btn-primary userbtn" id="Send1">Submit</button>
 </form>
     </div>
 

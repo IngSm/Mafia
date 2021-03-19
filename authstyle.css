@@ -23,3 +23,10 @@
    background-color: black;
    border: 2px solid white;
  }
+
+ .ChInBtn {
+  background-color: #202020;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+}
