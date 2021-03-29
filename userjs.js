@@ -1,8 +1,4 @@
-let GoAuth = document.getElementById('ChInBtn').addEventListener('click', OpenAuth);
 
-function OpenAuth () {
-    document.location.href ="authform.html"
-}
 
 let Uname;
 let Upassword;

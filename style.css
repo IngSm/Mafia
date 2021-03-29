@@ -26,3 +26,15 @@
    color: white;
    border-radius: 3px;
  }
+
+ .rollUpBtn {
+   background-color: transparent;
+   color: white;
+   border: none;
+
+ }
+
+ .mainMenuBtn {
+   background-color: transparent;
+   border: none;
+ }
